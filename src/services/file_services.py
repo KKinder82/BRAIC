@@ -13,16 +13,12 @@ from src.utils.sqlite_utils import SQLiteUtils
 DB_PATH = config.DB_PATH
 db = SQLiteUtils(DB_PATH)
 
-def download_file(download_url: str, uid: str) -> Any:
+def download_file(download_url: str, uid: str, title: str) -> Any:
     """
     下载文件
     """
     # 获取文件名
-    file_name = os.path.basename(download_url)
-    # 获取文件后缀
-    file_ext = os.path.splitext(file_name)[1]
-    # 获取文件名
-    file_name = str(uid) + file_ext
+    file_name = str(uid) + "_" + title
     # 获取文件路径
     file_path = os.path.join(config.DOC_PATH, file_name)
     # 如果文件存在，则删除
@@ -63,6 +59,7 @@ def vectorize_document(content: str) -> Any:
 
 def vectorize_document_by_doc(doc: Dict):
     doc_id = doc["id"] # 文档ID
+    title = doc["title"]
     # 根据 finish_url 下载文件
     download_url = doc["download_url"]
     finish_url = doc["finish_url"]
@@ -72,7 +69,7 @@ def vectorize_document_by_doc(doc: Dict):
         (doc_id,)
     )
     # 下载文件
-    success, message = download_file(download_url, doc_id)
+    success, message = download_file(download_url, doc_id, title)
     if success:
         file_path = message
         # 计算文件hash值
@@ -105,7 +102,7 @@ def vectorize_document_by_doc(doc: Dict):
 
 def vectorize_document_by_uid(uid: str):
     # 查询 status=0 的文档
-    docs = db.fetchall("SELECT id, download_url, finish_url FROM documents WHERE status='init' and UID=? ", (uid,))
+    docs = db.fetchall("SELECT id, uid, title,  download_url, finish_url FROM documents WHERE status='init' and UID=? ", (uid,))
     if not docs:
         print("没有需要向量化的文档。")
         return
@@ -114,14 +111,7 @@ def vectorize_document_by_uid(uid: str):
         vectorize_document_by_doc(doc)
 
 async def vectorize_document_by_uid_async(uid: str):
-    # 查询 status=0 的文档
-    docs = db.fetchall("SELECT id, download_url, finish_url FROM documents WHERE status='init' and UID=? ", (uid,))
-    if not docs:
-        print("没有需要向量化的文档。")
-        return
-
-    for doc in docs:
-        vectorize_document_by_doc(doc)    
+    vectorize_document_by_uid(uid) 
 
 def vectorize_documents():
     db = SQLiteUtils(DB_PATH)

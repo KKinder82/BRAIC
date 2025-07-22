@@ -1,4 +1,5 @@
 import asyncio
+import urllib
 from fastapi import APIRouter
 
 #项目库
@@ -14,6 +15,9 @@ doc_router = APIRouter()
 async def docVector(docid: str, filename: str, filesize: str, downloadUrl: str, finishUrl: str):
     # 向数据库中插入文件信息
     db = SQLiteUtils(config.DB_PATH)
+    # 对 downloadUrl 进行URL解码
+    _downloadUrl = urllib.parse.unquote(downloadUrl)
+    _finishUrl = urllib.parse.unquote(finishUrl)
     # 根据docid查询文件是否存在
     file = db.fetchone("SELECT * FROM documents WHERE UID=?", (docid,))
     if file:
@@ -37,7 +41,7 @@ async def docVector(docid: str, filename: str, filesize: str, downloadUrl: str, 
     )
 
 
-@doc_router.get("/finish?success={success}&message={message}", response_model=ApiResponse, tags=["路由测试"])
+@doc_router.get("/finish", response_model=ApiResponse, tags=["路由测试"])
 async def finish(success: bool, message: str):
     return ApiResponse(
         success=success,
