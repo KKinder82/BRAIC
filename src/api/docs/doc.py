@@ -28,7 +28,7 @@ async def docVector(docid: str, filename: str, filesize: str, downloadUrl: str, 
         )
     #插入文件信息
     db.execute("INSERT INTO documents (UID, title, download_url, finish_url, status, file_size) VALUES (?, ?, ?, ?, ?, ?)"
-        , (docid, filename, downloadUrl, finishUrl, "init", filesize))
+        , (docid, filename, _downloadUrl, _finishUrl, "init", filesize))
     
     #向量化服务发送请求
     run_async(vectorize_document_by_uid, docid)
