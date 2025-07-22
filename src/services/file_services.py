@@ -135,7 +135,7 @@ def vectorize_documents():
         vectorize_document_by_doc(doc)
 
 
-def schedule_task(interval: int = 60):
+def schedule_task(interval: int = 300):
     """
     定时任务，每 interval 秒执行一次
     """
