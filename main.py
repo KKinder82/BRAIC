@@ -4,6 +4,7 @@ import uvicorn
 
 #项目
 from src.config import config
+from src.services.exec_services import close_executer
 
 
 # 配置日志
@@ -20,3 +21,4 @@ if __name__ == "__main__":
         reload=True,
         log_level=config.LOG_LEVEL,
     )
+    close_executer()

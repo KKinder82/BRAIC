@@ -16,3 +16,10 @@ def run_async2(func, *args):
     except Exception as e:
         print(e)
 
+def close_executer():
+    try:
+        executer.shutdown(wait=True)
+    except Exception as e:
+        print(e)
+    
+
