@@ -24,7 +24,7 @@ class Config:
 
     # vLLM 配置
     #AI_URL = os.environ.get("AI_URL", "http://ds.kaoxve.com:9999/v1")
-    AI_URL = os.environ.get("AI_URL", "http://192.168.91.210:8000/v1")
+    AI_URL = os.environ.get("AI_URL", "http://192.168.222.210:8000/v1")
     AI_MODEL = os.environ.get("AI_MODEL", "Qwen3-32B")
     AI_KEY = os.environ.get("AI_KEY", "bori-qwen3-2012")
    
