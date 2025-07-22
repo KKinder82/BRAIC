@@ -112,7 +112,17 @@ def vectorize_document_by_uid(uid: str):
 
     for doc in docs:
         vectorize_document_by_doc(doc)
-    
+
+async def vectorize_document_by_uid_async(uid: str):
+    # 查询 status=0 的文档
+    docs = db.fetchall("SELECT id, download_url, finish_url FROM documents WHERE status='init' and UID=? ", (uid,))
+    if not docs:
+        print("没有需要向量化的文档。")
+        return
+
+    for doc in docs:
+        vectorize_document_by_doc(doc)    
+
 def vectorize_documents():
     db = SQLiteUtils(DB_PATH)
     # 查询 status=0 的文档 仅读取 100条

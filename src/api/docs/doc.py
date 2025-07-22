@@ -1,3 +1,4 @@
+import asyncio
 from fastapi import APIRouter
 
 #项目库
@@ -5,6 +6,7 @@ from src.config import config
 from src.utils.sqlite_utils import SQLiteUtils
 from src.api.ApiModel import ApiResponse
 from src.services.file_services import vectorize_document_by_uid
+from src.services.exec_services import run_async
 
 doc_router = APIRouter()
 
@@ -24,8 +26,8 @@ async def docVector(docid: str, filename: str, filesize: str, downloadUrl: str, 
     db.execute("INSERT INTO documents (UID, title, download_url, finish_url, status, file_size) VALUES (?, ?, ?, ?, ?, ?)"
         , (docid, filename, downloadUrl, finishUrl, "init", filesize))
     
-    # 向向量化服务发送请求
-    # vectorize_document_by_uid(docid)
+    #向量化服务发送请求
+    run_async(vectorize_document_by_uid, docid)
     
     """文件向量化"""
     return ApiResponse(
