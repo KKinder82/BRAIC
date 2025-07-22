@@ -5,6 +5,6 @@ build/
 dist/
 wheels/
 *.egg-info
-
+src/data/db/sqlite.db
 # Virtual environments
 .venv
