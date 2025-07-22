@@ -1,0 +1,2701 @@
+{
+  "profession": "营销专业",
+  "post": "计量运维班",
+  "projectName": "电能表接线测量及六角图绘制作业",
+  "taskSteps": [
+    {
+      "id": "id_advh8fztn",
+      "level": 1,
+      "number": "1",
+      "content": "作业前准备",
+      "parentId": null,
+      "children": [
+        {
+          "id": "id_qggnwvbzd",
+          "level": 2,
+          "number": "1.1",
+          "content": "派工领取工单",
+          "parentId": "id_advh8fztn",
+          "children": [
+            {
+              "id": "id_kr951s3a2",
+              "level": 3,
+              "number": "1.1.1",
+              "content": "班长派工",
+              "parentId": "id_qggnwvbzd",
+              "children": [],
+              "declarativeKnowledge": [
+                "人员职责分类",
+                "作业任务描述规范",
+                "作业风险分类",
+                "安全交代内容分类"
+              ],
+              "proceduralKnowledge": [
+                "班长派工流程操作流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_mbrzzi2f8",
+              "level": 3,
+              "number": "1.1.2",
+              "content": "领取作业表单",
+              "parentId": "id_qggnwvbzd",
+              "children": [],
+              "declarativeKnowledge": [
+                "作业表单分类"
+              ],
+              "proceduralKnowledge": [
+                "作业表单领取流程标准操作流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_e2hzlqnbe",
+              "level": 3,
+              "number": "1.1.3",
+              "content": "打印系统计量新装工单",
+              "parentId": "id_qggnwvbzd",
+              "children": [],
+              "declarativeKnowledge": [
+                "工单的类别",
+                "工单的作用"
+              ],
+              "proceduralKnowledge": [
+                "作业表单领取核对方法",
+                "系统计量新装工单打印操作流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_b5fkslz2f",
+              "level": 3,
+              "number": "1.1.4",
+              "content": "打印工作记录单",
+              "parentId": "id_qggnwvbzd",
+              "children": [],
+              "declarativeKnowledge": [
+                "工作记录单的内容标准"
+              ],
+              "proceduralKnowledge": [
+                "工作记录单领取标准操作流程",
+                "位置信息填写方法",
+                "计量装置信息填写方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "工单的分类",
+            "工单的内容构成"
+          ],
+          "proceduralKnowledge": [
+            "作业表单领取流程"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_1mhjk246u",
+          "level": 2,
+          "number": "1.2",
+          "content": "作业风险分析与预控措施",
+          "parentId": "id_advh8fztn",
+          "children": [
+            {
+              "id": "id_n4cgjlgc1",
+              "level": 3,
+              "number": "1.2.1",
+              "content": "风险 1：作业人员走错工作位置误碰带电设备触电的风险",
+              "parentId": "id_1mhjk246u",
+              "children": [
+                {
+                  "id": "id_bhicwxzmp",
+                  "level": 4,
+                  "number": "1.2.1.1",
+                  "content": "预控措施（1）：工作人员到达工作现场开工前要对照工单核对现场、计量柜名称、编号、电能表编号，并用围栏设立工作区；",
+                  "parentId": "id_n4cgjlgc1",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "设备带电状态判断标准",
+                    "带电设备接触风险预防原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "计量柜名称核对的流程",
+                    "电能表编号核对的步骤",
+                    "工作区围栏设立的步骤"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_furvpwxw5",
+                  "level": 4,
+                  "number": "1.2.1.2",
+                  "content": "预控措施（2）：测量前验明计量柜外壳不带电方可开启柜门，再验明柜内组件外壳不带电后进行测量。",
+                  "parentId": "id_n4cgjlgc1",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电流钳绝缘包裹规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "低压验电笔的验电操作流程",
+                    "计量柜外壳验电流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "带电设备的概念"
+              ],
+              "proceduralKnowledge": [
+                "作业人员走错工作位置误碰带电设备触电的风险防范方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_lb342ml6g",
+              "level": 3,
+              "number": "1.2.2",
+              "content": "风险 2：工作过程中作业人员手滑落触及螺丝笔杆或者接线盒带电部位触电的风险",
+              "parentId": "id_1mhjk246u",
+              "children": [
+                {
+                  "id": "id_pzq7aos2f",
+                  "level": 4,
+                  "number": "1.2.2.1",
+                  "content": "预控措施：测量及更正接线全程佩戴绝缘手套，使用的螺丝笔杆做绝缘包裹",
+                  "parentId": "id_lb342ml6g",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电气作业中防止直接接触带电体的安全规定",
+                    "工具绝缘处理的技术规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "绝缘手套的佩戴步骤",
+                    "螺丝笔杆绝缘包裹操作方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "电能计量装置带电部位分类",
+                "安全操作中人体安全距离规范"
+              ],
+              "proceduralKnowledge": [
+                "工作过程中作业人员手滑落触及螺丝笔杆或者接线盒带电部位触电的风险防范方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_nc51pw32u",
+              "level": 3,
+              "number": "1.2.3",
+              "content": ". 风险 3：测量过程中作业人员工具、方法不当导致电压回路短路，电流二次回路开路的风险",
+              "parentId": "id_1mhjk246u",
+              "children": [
+                {
+                  "id": "id_1cm8xur1i",
+                  "level": 4,
+                  "number": "1.2.3.1",
+                  "content": "预控措施：使用专用工具测量中，若需拨动接线盒连片时严禁使用尖嘴钳",
+                  "parentId": "id_nc51pw32u",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "尖嘴钳的结构",
+                    "尖嘴钳的用途"
+                  ],
+                  "proceduralKnowledge": [
+                    "接线盒连片拨动的专用工具使用步骤",
+                    "电压回路短路预防的工具操作方法",
+                    "接线盒操作的非尖嘴钳替代工具选择流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "电压回路短路的原理",
+                "电流二次回路开路的原理"
+              ],
+              "proceduralKnowledge": [
+                "测量过程中作业人员工具、方法不当导致电压回路短路，电流二次回路开路的风险防范方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "作业风险的分类",
+            "预控措施的内涵"
+          ],
+          "proceduralKnowledge": [
+            "作业风险分析的方法",
+            "预控措施制定的方法"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_fiqewc3jz",
+          "level": 2,
+          "number": "1.3",
+          "content": "规范着装",
+          "parentId": "id_advh8fztn",
+          "children": [
+            {
+              "id": "id_mzy7udjb5",
+              "level": 3,
+              "number": "1.3.1",
+              "content": "正确佩戴安全帽",
+              "parentId": "id_fiqewc3jz",
+              "children": [],
+              "declarativeKnowledge": [
+                "安全帽的分类",
+                "安全帽的结构",
+                "安全帽的佩戴标准",
+                "安全帽的失效判定标准"
+              ],
+              "proceduralKnowledge": [
+                "安全帽佩戴方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_ybgmbemdr",
+              "level": 3,
+              "number": "1.3.2",
+              "content": "正确穿着工作服",
+              "parentId": "id_fiqewc3jz",
+              "children": [],
+              "declarativeKnowledge": [
+                "工作服分类",
+                "工作服穿戴规范"
+              ],
+              "proceduralKnowledge": [
+                "工作服穿戴方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_zy4arakda",
+              "level": 3,
+              "number": "1.3.3",
+              "content": "正确穿着工作鞋",
+              "parentId": "id_fiqewc3jz",
+              "children": [],
+              "declarativeKnowledge": [
+                "工作鞋的分类",
+                "工作鞋的防护作用",
+                "工作鞋的穿戴规范"
+              ],
+              "proceduralKnowledge": [
+                "正确穿戴工作鞋的方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_flyohjjx9",
+              "level": 3,
+              "number": "1.3.4",
+              "content": "工作负责人佩戴红袖章",
+              "parentId": "id_fiqewc3jz",
+              "children": [],
+              "declarativeKnowledge": [
+                "安全着装规范中关于工作负责人标识的规定"
+              ],
+              "proceduralKnowledge": [
+                "红袖章佩戴前的外观检查步骤",
+                "红袖章固定方式的规范操作"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "规范着装的标准"
+          ],
+          "proceduralKnowledge": [
+            "工作服穿戴顺序规范"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_diq48w4kf",
+          "level": 2,
+          "number": "1.4",
+          "content": "准备工器具、仪器仪表、材料",
+          "parentId": "id_advh8fztn",
+          "children": [
+            {
+              "id": "id_gqgrvc6c4",
+              "level": 3,
+              "number": "1.4.1",
+              "content": "领取检查工具箱",
+              "parentId": "id_diq48w4kf",
+              "children": [],
+              "declarativeKnowledge": [
+                "工具箱的标准配置组成",
+                "工具外观完整性检查要点"
+              ],
+              "proceduralKnowledge": [
+                "工具箱外观完整性检查方法",
+                "工具的检查方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_i5y0kviqe",
+              "level": 3,
+              "number": "1.4.2",
+              "content": "领取检查安全用具",
+              "parentId": "id_diq48w4kf",
+              "children": [
+                {
+                  "id": "id_992uegtr9",
+                  "level": 4,
+                  "number": "1.4.2.1",
+                  "content": "领取围栏",
+                  "parentId": "id_i5y0kviqe",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "安全围栏的组成结构",
+                    "安全围栏的检查标准"
+                  ],
+                  "proceduralKnowledge": [
+                    "安全围栏检查流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_sbrr59kw1",
+                  "level": 4,
+                  "number": "1.4.2.2",
+                  "content": "领取标示牌",
+                  "parentId": "id_i5y0kviqe",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "安全标示牌的分类",
+                    "标示牌外观完整性检查要点",
+                    "安全标示牌的用途"
+                  ],
+                  "proceduralKnowledge": [
+                    "标示牌检查方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_xaixxz6v8",
+                  "level": 4,
+                  "number": "1.4.2.3",
+                  "content": "领取绝缘手套",
+                  "parentId": "id_i5y0kviqe",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "绝缘手套的分类",
+                    "绝缘手套的检查标准",
+                    "绝缘手套的用途"
+                  ],
+                  "proceduralKnowledge": [
+                    "绝缘手套外观检查流程",
+                    "绝缘手套气密性测试步骤",
+                    "绝缘手套正确佩戴操作流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_meh139s5m",
+                  "level": 4,
+                  "number": "1.4.2.4",
+                  "content": "领取低压验电笔",
+                  "parentId": "id_i5y0kviqe",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "低压验电笔的定义",
+                    "验电笔电压等级分类",
+                    "验电笔检查标准",
+                    "验电笔工作原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "验电笔检查步骤",
+                    "验电笔功能测试流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "安全用具的概念",
+                "安全用具的用途"
+              ],
+              "proceduralKnowledge": [
+                "安全工器具的领取方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_01pvjic4c",
+              "level": 3,
+              "number": "1.4.3",
+              "content": "领取检查封印",
+              "parentId": "id_diq48w4kf",
+              "children": [],
+              "declarativeKnowledge": [
+                "封印的分类",
+                "封印的检查标准"
+              ],
+              "proceduralKnowledge": [
+                "封印检查方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_4ad9bkno5",
+              "level": 3,
+              "number": "1.4.4",
+              "content": "专业仪表现场校验仪",
+              "parentId": "id_diq48w4kf",
+              "children": [
+                {
+                  "id": "id_owme34vlt",
+                  "level": 4,
+                  "number": "1.4.4.1",
+                  "content": "伏安相位表",
+                  "parentId": "id_4ad9bkno5",
+                  "children": [
+                    {
+                      "id": "id_azkcvrwvg",
+                      "level": 5,
+                      "number": "1.4.4.1.1",
+                      "content": "检查伏安相位表外观",
+                      "parentId": "id_owme34vlt",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "伏安相位表结构组成",
+                        "仪表外观检查规范"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表外观检查方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_l0frtdn8o",
+                      "level": 5,
+                      "number": "1.4.4.1.2",
+                      "content": "检查主机组件齐备",
+                      "parentId": "id_owme34vlt",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "伏安相位表核心功能模块组成"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表主机组件检查方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_ljthbaoe9",
+                      "level": 5,
+                      "number": "1.4.4.1.3",
+                      "content": "认证有效",
+                      "parentId": "id_owme34vlt",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "认证标识识别规范"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表认证标准核对方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_kqbatg3mo",
+                      "level": 5,
+                      "number": "1.4.4.1.4",
+                      "content": "开机检查功能正常",
+                      "parentId": "id_owme34vlt",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "伏安相位表功能检查要点"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表开机检查方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "伏安相位表的概念",
+                    "伏安相位表主机组件结构",
+                    "伏安相位表校验标准",
+                    "伏安相位表认证标识规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "伏安相位表的使用方法",
+                    "伏安相位表的检查方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_2azve9peg",
+                  "level": 4,
+                  "number": "1.4.4.2",
+                  "content": "电流钳",
+                  "parentId": "id_4ad9bkno5",
+                  "children": [
+                    {
+                      "id": "id_8p43xy8uv",
+                      "level": 5,
+                      "number": "1.4.4.2.1",
+                      "content": "检查电流钳外观标识",
+                      "parentId": "id_2azve9peg",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "电流钳的结构组成",
+                        "电流钳外观的检查要点"
+                      ],
+                      "proceduralKnowledge": [
+                        "电流钳外观检查方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_032sjujjj",
+                      "level": 5,
+                      "number": "1.4.4.2.2",
+                      "content": "检查电流钳钳口",
+                      "parentId": "id_2azve9peg",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "电流钳钳口的结构组成",
+                        "钳口的检查标准"
+                      ],
+                      "proceduralKnowledge": [
+                        "钳口检查标准"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_pwvx5edy1",
+                      "level": 5,
+                      "number": "1.4.4.2.3",
+                      "content": "检查电压线",
+                      "parentId": "id_2azve9peg",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "电压线的结构组成"
+                      ],
+                      "proceduralKnowledge": [
+                        "电压线外观完整性检查流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_7bvz402oj",
+                      "level": 5,
+                      "number": "1.4.4.2.4",
+                      "content": "电压线鳄鱼夹",
+                      "parentId": "id_2azve9peg",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "电压线鳄鱼夹的结构组成"
+                      ],
+                      "proceduralKnowledge": [
+                        "电压线鳄鱼夹检查流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "电流钳型号分类",
+                    "电流钳的原理",
+                    "电流钳的用途",
+                    "电流钳的检查标准"
+                  ],
+                  "proceduralKnowledge": [
+                    "电流钳的检查方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "专业仪表的分类"
+              ],
+              "proceduralKnowledge": [
+                "专业仪表的校验方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_q3t69u3l7",
+              "level": 3,
+              "number": "1.4.5",
+              "content": "车辆妥当",
+              "parentId": "id_diq48w4kf",
+              "children": [],
+              "declarativeKnowledge": [
+                "车辆类型分类",
+                "车辆类型的用途"
+              ],
+              "proceduralKnowledge": [
+                "车辆功能检查方法",
+                "车上工器具检查方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "工器具的分类",
+            "工器具的检查规范"
+          ],
+          "proceduralKnowledge": [
+            "工器具检查方法"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_bxl64ohvv",
+          "level": 2,
+          "number": "1.5",
+          "content": "现场布置安全措施",
+          "parentId": "id_advh8fztn",
+          "children": [
+            {
+              "id": "id_ieqom0vy2",
+              "level": 3,
+              "number": "1.5.1",
+              "content": "核对工作地址",
+              "parentId": "id_bxl64ohvv",
+              "children": [],
+              "declarativeKnowledge": [
+                "资产编号类型"
+              ],
+              "proceduralKnowledge": [
+                "核对计量柜名称与工单一致性流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_o0j51l1jn",
+              "level": 3,
+              "number": "1.5.2",
+              "content": "验电",
+              "parentId": "id_bxl64ohvv",
+              "children": [
+                {
+                  "id": "id_w6p91c51g",
+                  "level": 4,
+                  "number": "1.5.2.1",
+                  "content": "验明验电笔功能正常",
+                  "parentId": "id_o0j51l1jn",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "验电笔的工作原理",
+                    "验电笔的类型及适用范围",
+                    "验电时的安全操作要点"
+                  ],
+                  "proceduralKnowledge": [
+                    "验电笔功能测试流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_uqxt5rnpy",
+                  "level": 4,
+                  "number": "1.5.2.2",
+                  "content": "验明设备外壳不带电",
+                  "parentId": "id_o0j51l1jn",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "验电位置判断的标准"
+                  ],
+                  "proceduralKnowledge": [
+                    "设备外壳带电状态判定方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_rnxb4bkp8",
+                  "level": 4,
+                  "number": "1.5.2.3",
+                  "content": "验明验电笔功能正常",
+                  "parentId": "id_o0j51l1jn",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "验电笔的工作原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "验电笔功能测试流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_xc0inyk9g",
+                  "level": 4,
+                  "number": "1.5.2.4",
+                  "content": "开启柜门",
+                  "parentId": "id_o0j51l1jn",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "设备外壳带电风险识别规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "柜门开启方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "验电的原理"
+              ],
+              "proceduralKnowledge": [
+                "验电的方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_vl3z3w4nr",
+              "level": 3,
+              "number": "1.5.3",
+              "content": "装设安全围栏并悬挂标示牌",
+              "parentId": "id_bxl64ohvv",
+              "children": [
+                {
+                  "id": "id_43ewxehfi",
+                  "level": 4,
+                  "number": "1.5.3.1",
+                  "content": "悬挂“在此工作”标示牌",
+                  "parentId": "id_vl3z3w4nr",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "标示牌悬挂位置规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "标示牌悬挂流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_vu0vcu43g",
+                  "level": 4,
+                  "number": "1.5.3.2",
+                  "content": "装设围栏",
+                  "parentId": "id_vl3z3w4nr",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "安全围栏的安装规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "安全围栏装设方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_tzkejkw10",
+                  "level": 4,
+                  "number": "1.5.3.3",
+                  "content": "悬挂“止步，高压危险”标示牌",
+                  "parentId": "id_vl3z3w4nr",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电力作业安全规程中警示标识使用规范",
+                    "标示牌悬挂位置规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "标示牌悬挂操作流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_3tthe0orf",
+                  "level": 4,
+                  "number": "1.5.3.4",
+                  "content": "悬挂“从此进出”标示牌",
+                  "parentId": "id_vl3z3w4nr",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "悬挂标示牌的安全规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "标示牌悬挂流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "安全围栏的安装规范",
+                "标示牌分类及悬挂位置标准"
+              ],
+              "proceduralKnowledge": [
+                "安全围栏装设流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_orctj141r",
+              "level": 3,
+              "number": "1.5.4",
+              "content": "安全交代",
+              "parentId": "id_bxl64ohvv",
+              "children": [
+                {
+                  "id": "id_hq67wj7wk",
+                  "level": 4,
+                  "number": "1.5.4.1",
+                  "content": "交代作业任务",
+                  "parentId": "id_orctj141r",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "交代作业任务的要点"
+                  ],
+                  "proceduralKnowledge": [
+                    "交代作业任务的流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_r455v1dj3",
+                  "level": 4,
+                  "number": "1.5.4.2",
+                  "content": "交代工作位置",
+                  "parentId": "id_orctj141r",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "交代工作位置的要点"
+                  ],
+                  "proceduralKnowledge": [
+                    "交代工作位置的流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_dodq0ulb6",
+                  "level": 4,
+                  "number": "1.5.4.3",
+                  "content": "交代设备状态",
+                  "parentId": "id_orctj141r",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "设备状态分类",
+                    "交代设备状态的要点"
+                  ],
+                  "proceduralKnowledge": [
+                    "交代设备状态的流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_igpiac72w",
+                  "level": 4,
+                  "number": "1.5.4.4",
+                  "content": "交代作业风险",
+                  "parentId": "id_orctj141r",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "作业风险的分类",
+                    "预控措施的内涵"
+                  ],
+                  "proceduralKnowledge": [
+                    "作业风险分类识别方法",
+                    "交代作业风险及预控措施的流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_exi0hiwbv",
+                  "level": 4,
+                  "number": "1.5.4.5",
+                  "content": "分工",
+                  "parentId": "id_orctj141r",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "人员分工规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "分工的步骤"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "安全交代的内容",
+                "安全交代的要点"
+              ],
+              "proceduralKnowledge": [
+                "安全交代的流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "安全措施布置要求"
+          ],
+          "proceduralKnowledge": [
+            "现场安全措施的布置方法"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        }
+      ],
+      "declarativeKnowledge": [],
+      "proceduralKnowledge": [],
+      "isExpanded": true,
+      "workObjectives": "",
+      "methodAndTheory": "",
+      "toolsAndEquipment": "",
+      "additionalContent": "",
+      "searchMatch": false
+    },
+    {
+      "id": "id_z8j7wubqp",
+      "level": 1,
+      "number": "2",
+      "content": "作业过程",
+      "parentId": null,
+      "children": [
+        {
+          "id": "id_jyzcqtujt",
+          "level": 2,
+          "number": "2.1",
+          "content": "检查被测设备",
+          "parentId": "id_z8j7wubqp",
+          "children": [
+            {
+              "id": "id_pvfu8dmjg",
+              "level": 3,
+              "number": "2.1.1",
+              "content": "检查、核对封印",
+              "parentId": "id_jyzcqtujt",
+              "children": [
+                {
+                  "id": "id_pgtssw9vh",
+                  "level": 4,
+                  "number": "2.1.1.1",
+                  "content": "检查计量柜门封印",
+                  "parentId": "id_pvfu8dmjg",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "计量柜门封印的安装位置标准"
+                  ],
+                  "proceduralKnowledge": [
+                    "计量柜门封印检查步骤"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_r7e0ofehv",
+                  "level": 4,
+                  "number": "2.1.1.2",
+                  "content": "检查电能表终端封印",
+                  "parentId": "id_pvfu8dmjg",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电能表、终端封印的安装位置标准",
+                    "电能表、终端的接线原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "电能表终端封印检查流程",
+                    "电能表、终端的接线状态判断方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_ddlow0843",
+                  "level": 4,
+                  "number": "2.1.1.3",
+                  "content": "检查接线盒封印",
+                  "parentId": "id_pvfu8dmjg",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "接线盒封印的安装位置标准",
+                    "接线盒运行原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "接线盒封印检查流程",
+                    "接线盒连片状态判断方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "封印类型分类",
+                "封印完好性判断标准",
+                "封印安装规范"
+              ],
+              "proceduralKnowledge": [
+                "封印检查方法",
+                "封印异常的处理方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_e2ku2p5q8",
+              "level": 3,
+              "number": "2.1.2",
+              "content": "检查电能表运行数据",
+              "parentId": "id_jyzcqtujt",
+              "children": [
+                {
+                  "id": "id_6uux0hlfg",
+                  "level": 4,
+                  "number": "2.1.2.1",
+                  "content": "检查日期时间",
+                  "parentId": "id_e2ku2p5q8",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电能表日期时间显示格式规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "电能表日期时间查看方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_nitmfjr67",
+                  "level": 4,
+                  "number": "2.1.2.2",
+                  "content": "检查电量数据",
+                  "parentId": "id_e2ku2p5q8",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电量数据分类"
+                  ],
+                  "proceduralKnowledge": [
+                    "电量数据采集步骤规范"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_ixqqmfjfy",
+                  "level": 4,
+                  "number": "2.1.2.3",
+                  "content": "检查运行状态数据",
+                  "parentId": "id_e2ku2p5q8",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电能表运行状态数据分类"
+                  ],
+                  "proceduralKnowledge": [
+                    "电能表运行状态数据采集操作流程"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "电能表运行数据采集标准",
+                "电能表运行状态参数分类"
+              ],
+              "proceduralKnowledge": [
+                "电能表数据抄读方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "被测设备的检查要点",
+            "被测设备的检查标准"
+          ],
+          "proceduralKnowledge": [
+            "被测设备的检查流程",
+            "被测设备的检查方法"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_nn1pkqrz4",
+          "level": 2,
+          "number": "2.2",
+          "content": "测量数据",
+          "parentId": "id_z8j7wubqp",
+          "children": [
+            {
+              "id": "id_v60jofu9h",
+              "level": 3,
+              "number": "2.2.1",
+              "content": "测量电压数据",
+              "parentId": "id_nn1pkqrz4",
+              "children": [
+                {
+                  "id": "id_fnhhx53kx",
+                  "level": 4,
+                  "number": "2.2.1.1",
+                  "content": "测量对电压参考点电压数据",
+                  "parentId": "id_v60jofu9h",
+                  "children": [
+                    {
+                      "id": "id_anhuzm5os",
+                      "level": 5,
+                      "number": "2.2.1.1.1",
+                      "content": "测量U1a",
+                      "parentId": "id_fnhhx53kx",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U1a测量点概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "U1a点电压测量流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_qdzuck1w0",
+                      "level": 5,
+                      "number": "2.2.1.1.2",
+                      "content": "测量U2a",
+                      "parentId": "id_fnhhx53kx",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U2a测量点概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "U2a点电压测量流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_7ciul4270",
+                      "level": 5,
+                      "number": "2.2.1.1.3",
+                      "content": "测量U3a",
+                      "parentId": "id_fnhhx53kx",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U3a测量点概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "U3a点电压测量流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_mx0rsw2zo",
+                      "level": 5,
+                      "number": "2.2.1.1.4",
+                      "content": "测量U4a",
+                      "parentId": "id_fnhhx53kx",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U4a测量点的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "U4a点电压测量流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "电压参考点概念",
+                    "点电压测量原理",
+                    "电压测量数据记录标准",
+                    "电压参考点选择标准"
+                  ],
+                  "proceduralKnowledge": [
+                    "电压参考点接线端子识别方法",
+                    "电压参考点测量流程",
+                    "测量结果的记录方法",
+                    "伏安相位表电压测量步骤"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_loa2p1ql8",
+                  "level": 4,
+                  "number": "2.2.1.2",
+                  "content": "测量相电压数据",
+                  "parentId": "id_v60jofu9h",
+                  "children": [
+                    {
+                      "id": "id_su4kvxlpo",
+                      "level": 5,
+                      "number": "2.2.1.2.1",
+                      "content": "测量 U1n",
+                      "parentId": "id_loa2p1ql8",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U1n的测量点位置规范"
+                      ],
+                      "proceduralKnowledge": [
+                        "U1n相电压测量流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_8bu01re5a",
+                      "level": 5,
+                      "number": "2.2.1.2.2",
+                      "content": "测量 U2n",
+                      "parentId": "id_loa2p1ql8",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U2n的测量点位置规范"
+                      ],
+                      "proceduralKnowledge": [
+                        "U2n相电压测量流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_ahvmue4c8",
+                      "level": 5,
+                      "number": "2.2.1.2.3",
+                      "content": "测量 U3n",
+                      "parentId": "id_loa2p1ql8",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U3n的测量点位置规范"
+                      ],
+                      "proceduralKnowledge": [
+                        "U3n相电压测量流程"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "相电压定义",
+                    "相电压测量原理",
+                    "电压测量数据记录标准"
+                  ],
+                  "proceduralKnowledge": [
+                    "伏安相位表电压测量操作步骤",
+                    "电压回路连接顺序规范",
+                    "相电压数据记录方法",
+                    "相电压的识别方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "电压测量原理",
+                "电压分类",
+                "伏安相位表的功能分类",
+                "接线相位概念"
+              ],
+              "proceduralKnowledge": [
+                "伏安相位表使用操作规范",
+                "电压测量接线方法",
+                "电压测量的方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_0rz18gf5l",
+              "level": 3,
+              "number": "2.2.2",
+              "content": "测量电流数据",
+              "parentId": "id_nn1pkqrz4",
+              "children": [
+                {
+                  "id": "id_g1qo62o3w",
+                  "level": 4,
+                  "number": "2.2.2.1",
+                  "content": "正确选择测量口、功能键及量程",
+                  "parentId": "id_0rz18gf5l",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电流测量口的分类",
+                    "电流功能键的作用",
+                    "伏安相位表的量程选择标准",
+                    "电流测量口的用途"
+                  ],
+                  "proceduralKnowledge": [
+                    "电流测量口选择的步骤",
+                    "功能键切换的规范流程",
+                    "量程选择的精度与安全范围判断步骤"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_mkdsua3aj",
+                  "level": 4,
+                  "number": "2.2.2.2",
+                  "content": "正确选择测量位置及电流钳极性，准确读取电流数据",
+                  "parentId": "id_0rz18gf5l",
+                  "children": [
+                    {
+                      "id": "id_y5ihkwb3n",
+                      "level": 5,
+                      "number": "2.2.2.2.1",
+                      "content": "测量 I1",
+                      "parentId": "id_mkdsua3aj",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "I1电流线的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "I1电流测量方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_qamfk9r0b",
+                      "level": 5,
+                      "number": "2.2.2.2.2",
+                      "content": "测量 I2",
+                      "parentId": "id_mkdsua3aj",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "I2电流线的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "I2电流测量方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_1c22glo00",
+                      "level": 5,
+                      "number": "2.2.2.2.3",
+                      "content": "测量 I3",
+                      "parentId": "id_mkdsua3aj",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "I3电流线的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "I3电流测量方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "电流线相位判断标准",
+                    "电流钳极性分类",
+                    "电流数据抄读规范"
+                  ],
+                  "proceduralKnowledge": [
+                    "电流钳操作规范",
+                    "电流数据抄读方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "电流测量的基本原理",
+                "接线相位识别规律"
+              ],
+              "proceduralKnowledge": [
+                "电流钳的使用操作规范",
+                "电流测量的方法",
+                "电流测量的接线方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_vm3dl2u01",
+              "level": 3,
+              "number": "2.2.3",
+              "content": "测量相位角度数据",
+              "parentId": "id_nn1pkqrz4",
+              "children": [
+                {
+                  "id": "id_v0at7ae85",
+                  "level": 4,
+                  "number": "2.2.3.1",
+                  "content": "测量电压相位角度值",
+                  "parentId": "id_vm3dl2u01",
+                  "children": [
+                    {
+                      "id": "id_mnhfc0u16",
+                      "level": 5,
+                      "number": "2.2.3.1.1",
+                      "content": "测量U1n/U2n",
+                      "parentId": "id_v0at7ae85",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U1n和U2n测量点的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表测量U1n/U2n的操作步骤"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_keenmgcp7",
+                      "level": 5,
+                      "number": "2.2.3.1.2",
+                      "content": "测量U1n/U3n",
+                      "parentId": "id_v0at7ae85",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U1n和U3n测量点的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表测量U1n/U3n的操作步骤"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "电压相位角度定义"
+                  ],
+                  "proceduralKnowledge": [
+                    "电压相位角的测量方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_td9lov26a",
+                  "level": 4,
+                  "number": "2.2.3.2",
+                  "content": "测量电压 / 电流相位角度值",
+                  "parentId": "id_vm3dl2u01",
+                  "children": [
+                    {
+                      "id": "id_sgmw9hrx3",
+                      "level": 5,
+                      "number": "2.2.3.2.1",
+                      "content": "测量U1n/I1",
+                      "parentId": "id_td9lov26a",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U1n和I1测量点的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表测量U1n/I1的操作步骤"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_3uryyqp7g",
+                      "level": 5,
+                      "number": "2.2.3.2.2",
+                      "content": "测量U1n/I2",
+                      "parentId": "id_td9lov26a",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U1n和I2测量点的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表测量U1n/I2的操作步骤"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_d7z1ahay6",
+                      "level": 5,
+                      "number": "2.2.3.2.3",
+                      "content": "测量U1n/I3",
+                      "parentId": "id_td9lov26a",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "U1n和I3测量点的概念"
+                      ],
+                      "proceduralKnowledge": [
+                        "伏安相位表测量U1n/I3的操作步骤"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "电压/电流相位角定义"
+                  ],
+                  "proceduralKnowledge": [
+                    "电压/电流相位角的测量方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "相位角的分类",
+                "相位角的测量原理",
+                "电压/电流相位角度的概念"
+              ],
+              "proceduralKnowledge": [
+                "相位角的测量方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_taycfsbp5",
+              "level": 3,
+              "number": "2.2.4",
+              "content": "记录测量数据",
+              "parentId": "id_nn1pkqrz4",
+              "children": [],
+              "declarativeKnowledge": [
+                "测量数据记录格式规范"
+              ],
+              "proceduralKnowledge": [
+                "测量数据记录方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "测量数据的记录格式规范",
+            "测量仪表的功能分类"
+          ],
+          "proceduralKnowledge": [
+            "测量仪表的使用方法",
+            "测量数据的记录方法"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_8veur4fns",
+          "level": 2,
+          "number": "2.3",
+          "content": "分析判别与计算",
+          "parentId": "id_z8j7wubqp",
+          "children": [
+            {
+              "id": "id_fh2artdfm",
+              "level": 3,
+              "number": "2.3.1",
+              "content": "分析判别",
+              "parentId": "id_8veur4fns",
+              "children": [
+                {
+                  "id": "id_3n8efwqnr",
+                  "level": 4,
+                  "number": "2.3.1.1",
+                  "content": "判断电压",
+                  "parentId": "id_fh2artdfm",
+                  "children": [
+                    {
+                      "id": "id_hzdbw3540",
+                      "level": 5,
+                      "number": "2.3.1.1.1",
+                      "content": "判断电压相序",
+                      "parentId": "id_3n8efwqnr",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "电压相序的定义",
+                        "电压相序判断的原理"
+                      ],
+                      "proceduralKnowledge": [
+                        "电压相序的判断方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_zjf37inru",
+                      "level": 5,
+                      "number": "2.3.1.1.2",
+                      "content": "判断电压向量下标",
+                      "parentId": "id_3n8efwqnr",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "电压向量的表示方法",
+                        "电压向量下标的判断原理"
+                      ],
+                      "proceduralKnowledge": [
+                        "电压向量下标的判断方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "电压相序的判断原理",
+                    "电压向量下标的判断原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "电压相序的判断方法",
+                    "电压向量下标的判断方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_m05qpcml2",
+                  "level": 4,
+                  "number": "2.3.1.2",
+                  "content": "绘制向量图",
+                  "parentId": "id_fh2artdfm",
+                  "children": [
+                    {
+                      "id": "id_3ukeskj1y",
+                      "level": 5,
+                      "number": "2.3.1.2.1",
+                      "content": "在向量坐标系中找到并绘制电压向量",
+                      "parentId": "id_m05qpcml2",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "向量坐标系的构成"
+                      ],
+                      "proceduralKnowledge": [
+                        "电压向量绘制方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_j5r1ukj0t",
+                      "level": 5,
+                      "number": "2.3.1.2.2",
+                      "content": "绘制电流向量",
+                      "parentId": "id_m05qpcml2",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "向量坐标系的构成"
+                      ],
+                      "proceduralKnowledge": [
+                        "电流向量的绘制方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_smwi1o83k",
+                      "level": 5,
+                      "number": "2.3.1.2.3",
+                      "content": "判断电流向量下标",
+                      "parentId": "id_m05qpcml2",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "电流向量下标的判断原理"
+                      ],
+                      "proceduralKnowledge": [
+                        "电流向量下标的判断方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_lagctq2xg",
+                      "level": 5,
+                      "number": "2.3.1.2.4",
+                      "content": "标示第I、II元件功率角表达式",
+                      "parentId": "id_m05qpcml2",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "功率角的定义",
+                        "功率角表达式原理"
+                      ],
+                      "proceduralKnowledge": [
+                        "功率角判断方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    },
+                    {
+                      "id": "id_6fni6iesx",
+                      "level": 5,
+                      "number": "2.3.1.2.5",
+                      "content": "判断负荷性质，推算功率因数",
+                      "parentId": "id_m05qpcml2",
+                      "children": [],
+                      "declarativeKnowledge": [
+                        "负荷性质判断原理",
+                        "功率三角形的构成",
+                        "功率因数夹角的推算原理"
+                      ],
+                      "proceduralKnowledge": [
+                        "功率因数计算步骤",
+                        "负荷性质的判断方法"
+                      ],
+                      "isExpanded": true,
+                      "workObjectives": "",
+                      "methodAndTheory": "",
+                      "toolsAndEquipment": "",
+                      "additionalContent": "",
+                      "searchMatch": false
+                    }
+                  ],
+                  "declarativeKnowledge": [
+                    "向量图的标准",
+                    "向量坐标系的构成"
+                  ],
+                  "proceduralKnowledge": [
+                    "向量图的绘制方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "分析判别的内涵"
+              ],
+              "proceduralKnowledge": [
+                "分析判别的方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_zvr8dsuek",
+              "level": 3,
+              "number": "2.3.2",
+              "content": "计算",
+              "parentId": "id_8veur4fns",
+              "children": [
+                {
+                  "id": "id_qqs1vk5ox",
+                  "level": 4,
+                  "number": "2.3.2.1",
+                  "content": "列功率表达式",
+                  "parentId": "id_zvr8dsuek",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "电能表功率计算公式原理",
+                    "三相电路功率计算原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "功率的计算方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                },
+                {
+                  "id": "id_rjrnwv0o1",
+                  "level": 4,
+                  "number": "2.3.2.2",
+                  "content": "计算更正系数k并化至最简标准式",
+                  "parentId": "id_zvr8dsuek",
+                  "children": [],
+                  "declarativeKnowledge": [
+                    "更正系数k的定义",
+                    "更正系数k的表达式原理"
+                  ],
+                  "proceduralKnowledge": [
+                    "更正系数k的计算方法"
+                  ],
+                  "isExpanded": true,
+                  "workObjectives": "",
+                  "methodAndTheory": "",
+                  "toolsAndEquipment": "",
+                  "additionalContent": "",
+                  "searchMatch": false
+                }
+              ],
+              "declarativeKnowledge": [
+                "计算公式原理"
+              ],
+              "proceduralKnowledge": [
+                "计算方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "电压的判断原理",
+            "向量图的绘制标准"
+          ],
+          "proceduralKnowledge": [
+            "判断电压的方法",
+            "向量图的绘制方法"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_586r272by",
+          "level": 2,
+          "number": "2.4",
+          "content": "更正接线",
+          "parentId": "id_z8j7wubqp",
+          "children": [],
+          "declarativeKnowledge": [
+            "接线错误类型分类"
+          ],
+          "proceduralKnowledge": [
+            "接线错误判断方法",
+            "更正接线的标准流程"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_uuu6k5zlx",
+          "level": 2,
+          "number": "2.5",
+          "content": "恢复封印",
+          "parentId": "id_z8j7wubqp",
+          "children": [],
+          "declarativeKnowledge": [
+            "封印的类型",
+            "封印材料的规格参数",
+            "封印的用途"
+          ],
+          "proceduralKnowledge": [
+            "封印操作规范执行流程"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_qg2r24poz",
+          "level": 2,
+          "number": "2.6",
+          "content": "填写工单",
+          "parentId": "id_z8j7wubqp",
+          "children": [
+            {
+              "id": "id_sjuh6tw58",
+              "level": 3,
+              "number": "2.6.1",
+              "content": "填写系统工单或者记录单",
+              "parentId": "id_qg2r24poz",
+              "children": [],
+              "declarativeKnowledge": [
+                "工单或记录单填写规范"
+              ],
+              "proceduralKnowledge": [
+                "工单或记录单填写方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_76blhdbeg",
+              "level": 3,
+              "number": "2.6.2",
+              "content": "完善作业表单",
+              "parentId": "id_qg2r24poz",
+              "children": [],
+              "declarativeKnowledge": [
+                "作业表单填写规范"
+              ],
+              "proceduralKnowledge": [
+                "作业表单填写方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_kg8g82e1r",
+              "level": 3,
+              "number": "2.6.3",
+              "content": "完善工单",
+              "parentId": "id_qg2r24poz",
+              "children": [],
+              "declarativeKnowledge": [
+                "工单填写规范"
+              ],
+              "proceduralKnowledge": [
+                "工单填写方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "工单填写规范标准"
+          ],
+          "proceduralKnowledge": [
+            "工单填写方法"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        }
+      ],
+      "declarativeKnowledge": [],
+      "proceduralKnowledge": [],
+      "isExpanded": true,
+      "workObjectives": "",
+      "methodAndTheory": "",
+      "toolsAndEquipment": "",
+      "additionalContent": "",
+      "searchMatch": false
+    },
+    {
+      "id": "id_0w1z8etja",
+      "level": 1,
+      "number": "3",
+      "content": "工作终结",
+      "parentId": null,
+      "children": [
+        {
+          "id": "id_cxeexqb0m",
+          "level": 2,
+          "number": "3.1",
+          "content": "收拾仪表",
+          "parentId": "id_0w1z8etja",
+          "children": [
+            {
+              "id": "id_m6jfj9v14",
+              "level": 3,
+              "number": "3.1.1",
+              "content": "拆除与被测设备连接",
+              "parentId": "id_cxeexqb0m",
+              "children": [],
+              "declarativeKnowledge": [
+                "接线盒端测量仪表连接拆卸要求"
+              ],
+              "proceduralKnowledge": [
+                "接线盒端仪表连接断开顺序规范"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_epb9hq9d8",
+              "level": 3,
+              "number": "3.1.2",
+              "content": "拆除测量仪表连接",
+              "parentId": "id_cxeexqb0m",
+              "children": [],
+              "declarativeKnowledge": [
+                "伏安相位表连线拆除规范",
+                "伏安相位表归位规范"
+              ],
+              "proceduralKnowledge": [
+                "伏安相位表拆除流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_n6m42852l",
+              "level": 3,
+              "number": "3.1.3",
+              "content": "电流钳归位",
+              "parentId": "id_cxeexqb0m",
+              "children": [],
+              "declarativeKnowledge": [
+                "电流钳归位规范"
+              ],
+              "proceduralKnowledge": [
+                "电流钳归位方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_yh4ocywz9",
+              "level": 3,
+              "number": "3.1.4",
+              "content": "电压测量线归位",
+              "parentId": "id_cxeexqb0m",
+              "children": [],
+              "declarativeKnowledge": [
+                "电压测量线归位规范"
+              ],
+              "proceduralKnowledge": [
+                "电压测量线归位方法"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "测量仪表的整理规范"
+          ],
+          "proceduralKnowledge": [
+            "测量仪表整理的操作规范"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_1xezbk1gd",
+          "level": 2,
+          "number": "3.2",
+          "content": "恢复现场",
+          "parentId": "id_0w1z8etja",
+          "children": [
+            {
+              "id": "id_kenv4bi3s",
+              "level": 3,
+              "number": "3.2.1",
+              "content": "清理现场",
+              "parentId": "id_1xezbk1gd",
+              "children": [],
+              "declarativeKnowledge": [
+                "现场清理标准"
+              ],
+              "proceduralKnowledge": [
+                "现场清理操作步骤规范"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_fzsb71fsn",
+              "level": 3,
+              "number": "3.2.2",
+              "content": "拆除安全措施",
+              "parentId": "id_1xezbk1gd",
+              "children": [],
+              "declarativeKnowledge": [
+                "安全措施拆除规范"
+              ],
+              "proceduralKnowledge": [
+                "安全措施拆除流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            },
+            {
+              "id": "id_ehpu1747t",
+              "level": 3,
+              "number": "3.2.3",
+              "content": "作业人员撤离",
+              "parentId": "id_1xezbk1gd",
+              "children": [],
+              "declarativeKnowledge": [
+                "作业人员撤离规范"
+              ],
+              "proceduralKnowledge": [
+                "作业人员撤离流程"
+              ],
+              "isExpanded": true,
+              "workObjectives": "",
+              "methodAndTheory": "",
+              "toolsAndEquipment": "",
+              "additionalContent": "",
+              "searchMatch": false
+            }
+          ],
+          "declarativeKnowledge": [
+            "作业现场恢复规范"
+          ],
+          "proceduralKnowledge": [
+            "作业现场恢复流程"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        },
+        {
+          "id": "id_ef9y38nrx",
+          "level": 2,
+          "number": "3.3",
+          "content": "办理作业终结手续",
+          "parentId": "id_0w1z8etja",
+          "children": [],
+          "declarativeKnowledge": [
+            "作业终结手续的规范"
+          ],
+          "proceduralKnowledge": [
+            "作业终结确手续办理的流程"
+          ],
+          "isExpanded": true,
+          "workObjectives": "",
+          "methodAndTheory": "",
+          "toolsAndEquipment": "",
+          "additionalContent": "",
+          "searchMatch": false
+        }
+      ],
+      "declarativeKnowledge": [],
+      "proceduralKnowledge": [],
+      "isExpanded": true,
+      "workObjectives": "",
+      "methodAndTheory": "",
+      "toolsAndEquipment": "",
+      "additionalContent": "",
+      "searchMatch": false
+    }
+  ],
+  "skillRequirements": [
+    {
+      "key": "primary",
+      "title": "初级工",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "intermediate",
+      "title": "中级工",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "senior",
+      "title": "高级工",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "technician",
+      "title": "技师",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "seniorTechnician",
+      "title": "高级技师",
+      "children": [],
+      "level": 1
+    }
+  ],
+  "knowledgeRequirements": [
+    {
+      "key": "primary",
+      "title": "初级工",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "intermediate",
+      "title": "中级工",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "senior",
+      "title": "高级工",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "technician",
+      "title": "技师",
+      "children": [],
+      "level": 1
+    },
+    {
+      "key": "seniorTechnician",
+      "title": "高级技师",
+      "children": [],
+      "level": 1
+    }
+  ],
+  "suggestionResult": "",
+  "savedAt": "2025-07-03T08:38:17.388Z"
+}
